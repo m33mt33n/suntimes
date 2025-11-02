@@ -16,6 +16,9 @@ various sun related events for given date.
 
 # Installation
 ```shell
+# Using go command
+go install -ldflags="-s -w" -v github.com/m33mt33n/suntimes@latest
+
 # Using git
 git clone "https://github.com/m33mt33n/suntimes.git"
 cd suntimes
