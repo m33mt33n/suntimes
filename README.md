@@ -26,6 +26,7 @@ CGO_ENABLED=0 go build -ldflags="-s -w" -v .
 ```
 
 # Usage
+```text
 Usage of suntimes:
   -city string
       city name to be used (default "Unknown")
@@ -37,6 +38,7 @@ Usage of suntimes:
       detect location by using ip address
   -timezone string
       timezone to be used by default it will use $TZ environment variable. (default "<system's $TZ>")
+```
 
 # Examples
 ```shell
