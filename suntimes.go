@@ -1,7 +1,7 @@
 //┌───────────────────────────────────────────────────────────────────────────┐
 //	File           suntimes.go
 //	Description    A simple frontend for api.sunrise-sunset.org.
-//	Version        0.1.0 alpha
+//	Version        0.1.1 alpha
 //	Author         Moin Khan <m33mt33n>
 //	Source         https://github.com/m33mt33n/suntimes
 //	License        GNU General Public License v3.0 or later (see LICENSE)
