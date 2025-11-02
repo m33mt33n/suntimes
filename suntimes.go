@@ -92,13 +92,13 @@ func (du *Duration) UnmarshalJSON(b []byte) (err error) {
 	duration, err := strconv.Atoi(s)
 	check(err)
 	d := time.Duration(duration) * time.Second
+	// credit: format duration: https://stackoverflow.com/questions/47341278/how-to-format-a-duration
 	d = d.Round(time.Second)
 	h := d / time.Hour
 	d -= h * time.Hour
 	m := d / time.Minute
 	d -= m * time.Minute
 	sec := d / time.Second
-	//*du = Duration(fmt.Sprintf("%02d:%02d:%02d", h, m, sec))
 	*du = Duration(fmt.Sprintf("%dh %dm %ds", h, m, sec))
 	return
 }

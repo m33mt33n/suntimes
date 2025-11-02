@@ -1,5 +1,4 @@
 # Suntimes
-
 A simple frontend for api.sunrise-sunset.org, which displays information about
 various sun related events for given date.
 
